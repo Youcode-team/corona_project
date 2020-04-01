@@ -1,0 +1,33 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+    font-family: 'cairo';
+
+  }
+  nav{
+   background-image: url("/Design/Assets/png/Merged\ bar-10.png");
+    height: 80px;
+    width: 100%;
+    ul{
+        float: right;
+        margin-right: 20px;
+        li{
+            display: inline-block;
+            line-height: 80px;
+            margin: 0 5px;
+            a{
+                color:  $color-dark;
+                font-size: 17px;
+                padding: 7px 13px;
+                font-weight: bold;
+               
+            }
+          }
+      }
+  }
+  a.active{
+    color:$color-bleu;
+}
