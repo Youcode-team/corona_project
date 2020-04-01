@@ -1,0 +1,18 @@
+.heroHeader{
+    display: flex;
+   
+    &__left{
+        margin:40px 0px 0px 10px;
+    }
+    &__right{
+        &--title{
+            text-align: center;
+            font-size: 26px;
+            color: $color-bleu;
+            margin-top: 40px;
+        }
+
+    }
+
+
+}

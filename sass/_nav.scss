@@ -31,3 +31,17 @@
   a.active{
     color:$color-bleu;
 }
+.infoMedicale{
+    background: $color-yellow;
+    &__title{
+        text-transform: uppercase;
+        margin-left: 465px;
+        
+    }
+
+    &__parag{
+        text-align: center;
+        color:$color-bleu;
+        font-size: 13px;
+    }
+}

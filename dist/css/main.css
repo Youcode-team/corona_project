@@ -26,8 +26,28 @@ nav {
 a.active {
   color: #1078AD; }
 
+.infoMedicale {
+  background: #F4CF1B; }
+  .infoMedicale__title {
+    text-transform: uppercase;
+    margin-left: 465px; }
+  .infoMedicale__parag {
+    text-align: center;
+    color: #1078AD;
+    font-size: 13px; }
+
 .btnar {
-  background: none;
-  padding: 2px,1px;
+  background: transparent;
+  padding: 2px,1px,2px,15px;
   color: #1078AD;
   border: #1078AD, bold; }
+
+.heroHeader {
+  display: flex; }
+  .heroHeader__left {
+    margin: 40px 0px 0px 10px; }
+  .heroHeader__right--title {
+    text-align: center;
+    font-size: 26px;
+    color: #1078AD;
+    margin-top: 40px; }
