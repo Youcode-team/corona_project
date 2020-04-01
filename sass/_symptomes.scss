@@ -11,6 +11,17 @@
             color: $color-bleu;
             margin-top: 40px;
         }
+        &--img img{
+            display: block;
+            margin: auto;
+           
+        }
+        &--para{
+            text-align: center;
+            color: $color-grey;
+            font-size: 25px;
+            font-weight: 900;
+        }
 
     }
 

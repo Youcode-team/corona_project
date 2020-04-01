@@ -36,11 +36,25 @@ a.active {
     color: #1078AD;
     font-size: 13px; }
 
-.btnar {
-  background: transparent;
-  padding: 2px,1px,2px,15px;
-  color: #1078AD;
-  border: #1078AD, bold; }
+.btnmd button {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  border: none;
+  color: #FFFFFF;
+  background-color: #1078AD;
+  padding: 8px 184px;
+  border: 1px solid #1078AD;
+  border-radius: 10px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 20px;
+  font-weight: bolder; }
+
+.btnmd button:hover {
+  color: #FFFFFF;
+  background-color: #96C5DC; }
 
 .heroHeader {
   display: flex; }
@@ -51,3 +65,11 @@ a.active {
     font-size: 26px;
     color: #1078AD;
     margin-top: 40px; }
+  .heroHeader__right--img img {
+    display: block;
+    margin: auto; }
+  .heroHeader__right--para {
+    text-align: center;
+    color: #7F7F7F;
+    font-size: 25px;
+    font-weight: 900; }
