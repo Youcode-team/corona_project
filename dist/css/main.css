@@ -73,3 +73,28 @@ a.active {
     color: #7F7F7F;
     font-size: 25px;
     font-weight: 900; }
+
+.symptomes {
+  margin-top: 10em;
+  width: 50%;
+  margin: 0 auto; }
+  .symptomes__title {
+    text-align: center;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-size: 18px;
+    font-weight: bold;
+    color: #1078AD; }
+  .symptomes__flex {
+    width: 700px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; }
+    .symptomes__flex__list {
+      max-width: 50%;
+      margin-top: 20px; }
+    .symptomes__flex h5 {
+      font-size: 1.2em;
+      text-align: center; }

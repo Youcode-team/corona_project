@@ -27,3 +27,44 @@
 
 
 }
+.symptomes {
+    margin-top: 10em;
+    width: 50%;
+    margin: 0 auto;
+
+    &__title{
+        text-align: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        font-size: 18px;
+        font-weight: bold;
+        color: $color-bleu;
+    }
+
+
+    &__flex {
+        width: 700px;
+        text-align: center;
+        margin: auto;
+        
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+
+        &__list {
+            max-width: 50%;
+            margin-top: 20px;
+           
+        }
+
+
+
+        h5 {
+            font-size: 1.2em;
+            text-align: center;
+
+        }
+
+
+    }
+}
