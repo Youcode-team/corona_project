@@ -8,9 +8,20 @@
 
   }
   nav{
-   background-image: url("/Design/Assets/png/Merged\ bar-10.png");
+   background-image: url("/Design/Assets/png/Merged bar-9.png");
     height: 80px;
     width: 100%;
+   
+    .arabic{
+        color: $color-bleu;
+        border: 1.5px solid $color-bleu;
+                padding: 0.3em 1em;
+                border-radius: 10px;
+
+    }
+    .fas {
+        color: $color-yellow;
+    }
     ul{
         float: right;
         margin-right: 20px;
@@ -18,11 +29,16 @@
             display: inline-block;
             line-height: 80px;
             margin: 0 5px;
+
+           
+            
             a{
                 color:  $color-dark;
                 font-size: 17px;
                 padding: 7px 13px;
                 font-weight: bold;
+                
+                
                
             }
           }

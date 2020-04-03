@@ -7,9 +7,16 @@
   font-family: 'cairo'; }
 
 nav {
-  background-image: url("/Design/Assets/png/Merged bar-10.png");
+  background-image: url("/Design/Assets/png/Merged bar-9.png");
   height: 80px;
   width: 100%; }
+  nav .arabic {
+    color: #1078AD;
+    border: 1.5px solid #1078AD;
+    padding: 0.3em 1em;
+    border-radius: 10px; }
+  nav .fas {
+    color: #F4CF1B; }
   nav ul {
     float: right;
     margin-right: 20px; }
