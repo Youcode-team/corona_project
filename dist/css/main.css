@@ -36,7 +36,7 @@ a.active {
     color: #1078AD;
     font-size: 13px; }
 
-.btnmd button {
+.btnmd button, .test button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -44,7 +44,7 @@ a.active {
   border: none;
   color: #FFFFFF;
   background-color: #1078AD;
-  padding: 8px 184px;
+  padding: 8px;
   border: 1px solid #1078AD;
   border-radius: 10px;
   text-align: center;
@@ -52,7 +52,7 @@ a.active {
   font-size: 20px;
   font-weight: bolder; }
 
-.btnmd button:hover {
+.btnmd button:hover, .test button:hover {
   color: #FFFFFF;
   background-color: #96C5DC; }
 
@@ -98,3 +98,78 @@ a.active {
     .symptomes__flex h5 {
       font-size: 1.2em;
       text-align: center; }
+
+.recom {
+  background-color: #1078AD;
+  padding-bottom: 30px; }
+  .recom h2 {
+    margin-top: 40px;
+    text-align: center;
+    font-size: 1.9rem;
+    letter-spacing: 0;
+    color: #FFFFFF;
+    margin-bottom: 40px;
+    padding-top: 20px; }
+  .recom__flex {
+    max-width: 90%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center; }
+  .recom__num {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 30px; }
+    .recom__num h5 {
+      color: #F4CF1B;
+      font-size: 25px;
+      font-weight: 700;
+      margin-bottom: 25px; }
+    .recom__num span {
+      background-color: #F4CF1B;
+      width: 200px;
+      text-align: center;
+      color: #1078AD;
+      font-size: 20px;
+      font-weight: 700;
+      margin-bottom: 15px;
+      padding: 15px;
+      border-radius: 5px; }
+    .recom__num p {
+      font-size: 30px;
+      color: #FFFFFF;
+      border-bottom: 3px solid #F4CF1B; }
+  .recom__list p {
+    font-size: 25px;
+    font-weight: bold;
+    line-height: 35px;
+    padding-left: 2.5em; }
+  .recom__list li {
+    font-size: 25px;
+    font-weight: bold;
+    color: #FFFFFF;
+    padding-bottom: 10px;
+    list-style: none;
+    display: block;
+    padding-left: 2.5em;
+    line-height: 35px; }
+
+.test {
+  background-color: #96C5DC;
+  display: flex;
+  flex-direction: column;
+  padding-bottom: 2em; }
+  .test button {
+    width: 50%;
+    height: 10%; }
+  .test__title {
+    text-align: center;
+    font-size: 25px;
+    font-weight: bold;
+    color: #1078AD;
+    padding-top: 1em; }
+  .test__emo {
+    max-width: 50px;
+    margin: auto;
+    padding-top: 1em;
+    padding-bottom: 1em; }

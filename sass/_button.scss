@@ -4,9 +4,9 @@
     margin-right: auto;
     width: 100%;
     border: none;
-    color: $footer-color;
+    color: $color-white;
     background-color: $color-bleu;
-    padding: 8px 184px;
+    padding: 8px;
     border: 1px solid $color-bleu;
     border-radius: 10px;
     text-align: center;
@@ -15,6 +15,6 @@
     font-weight: bolder;
   }
   .btnmd button:hover{
-      color: $footer-color;
+      color: $color-white;
       background-color: $color-ciel;
   }
