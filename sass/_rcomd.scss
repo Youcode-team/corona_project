@@ -1,0 +1,113 @@
+.recom{
+    background-color: $color-bleu;
+    padding-bottom: 30px;
+
+    h2 {
+        margin-top: 40px;
+        text-align: center;
+        font-size: 1.9rem;
+        letter-spacing: 0;
+        color: $color-white;
+        margin-bottom: 40px;
+        padding-top: 20px;
+    }
+
+    &__flex {
+        max-width: 90%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+
+
+
+    }
+
+    &__num {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-left: 30px;
+        h5 {
+            color: $color-yellow;
+            font-size: 25px;
+            font-weight: 700;
+            margin-bottom: 25px;
+        }
+
+        span {
+            background-color: $color-yellow;
+            width: 200px;
+            text-align: center;
+            color: $color-bleu;
+            font-size: 20px;
+            font-weight: 700;
+            margin-bottom: 15px;
+            padding: 15px;
+            border-radius: 5px;
+
+        }
+
+        p {
+            font-size: 30px;
+            color: $color-white;
+            border-bottom: 3px solid $color-yellow;
+        }
+
+    }
+
+
+    &__list {
+        p {
+            font-size: 25px;
+            font-weight: bold;
+            line-height: 35px;
+            padding-left: 2.5em;
+        }
+
+        li {
+            font-size: 25px;
+            font-weight: bold;
+            color:$color-white;
+            padding-bottom: 10px;
+            list-style: none;
+            display: block;
+            padding-left: 2.5em;
+            line-height: 35px;
+        }
+    }
+}
+
+
+.test {
+    @extend .btnmd;
+        button{
+            width: 50%;
+            height: 10%;
+        }
+        
+
+    
+    
+    background-color: $color-ciel;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 2em;
+
+    &__title {
+        text-align: center;
+        font-size: 25px;
+        font-weight: bold;
+        color: $color-bleu;
+        padding-top: 1em;
+    }
+
+    &__emo {
+        max-width: 50px;
+        margin: auto;
+        padding-top: 1em;
+        padding-bottom: 1em;
+
+       
+
+    }
+}
