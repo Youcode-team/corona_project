@@ -45,7 +45,7 @@ a.active {
     color: #1078AD;
     font-size: 13px; }
 
-.btnmd button, .test button {
+.btnmd button, .test button, .information__container--col2 button, .information__container--col3 button {
   display: block;
   margin-left: auto;
   margin-right: auto;
@@ -61,7 +61,7 @@ a.active {
   font-size: 20px;
   font-weight: bolder; }
 
-.btnmd button:hover, .test button:hover {
+.btnmd button:hover, .test button:hover, .information__container--col2 button:hover, .information__container--col3 button:hover {
   color: #FFFFFF;
   background-color: #96C5DC; }
 
@@ -260,7 +260,7 @@ a.active {
     margin: 20px;
     padding: 10px;
     text-align: center;
-    color: #1078AD; }
+    color: #1A519E; }
     @media only screen and (max-width: 600px) {
       .protéger__contenu__items {
         width: 40%; } }
@@ -269,7 +269,7 @@ a.active {
       font-weight: 700; }
 
 .protéger__home {
-  color: #1078AD;
+  color: #1A519E;
   width: 35%;
   margin: auto;
   text-align: center; }
@@ -279,5 +279,37 @@ a.active {
     .protéger__home {
       width: 70%; } }
 
-.information__container {
-  display: flex; }
+.information {
+  background-color: #96C5DC; }
+  .information button {
+    font-size: 14px;
+    border-radius: 5px;
+    font-weight: bolder; }
+  .information__container {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+    margin-top: 50px;
+    width: 90%;
+    text-align: center; }
+    .information__container--col1 h1 {
+      color: #1078AD;
+      font-size: 2rem;
+      font-weight: bolder;
+      margin-top: 18px;
+      margin-bottom: 18px; }
+    .information__container--col1 p {
+      color: #1A519E;
+      font-size: 1.1rem;
+      font-weight: bolder;
+      margin-bottom: 18px; }
+    .information__container--col2 {
+      margin-top: 60px; }
+      .information__container--col2 h4 {
+        padding: 10px 20px;
+        color: #FFFFFF; }
+    .information__container--col3 {
+      margin-top: 60px; }
+      .information__container--col3 h4 {
+        padding: 10px 35px;
+        color: #FFFFFF; }
